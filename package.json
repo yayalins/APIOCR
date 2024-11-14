@@ -1,0 +1,22 @@
+{
+  "name": "proj_consumo",
+  "version": "1.0.0",
+  "description": "API para monitorar o consumo de água usando NestJS - A7 - Aplicando Conhecimento - WebMobile",
+  "author": "Alecsei Ivanov da Costa",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "build": "nest build"
+  },
+  "dependencies": {
+    "@nestjs/common": "^9.0.0",
+    "@nestjs/core": "^9.0.0",
+    "rxjs": "^7.5.0"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^9.0.0",
+    "@nestjs/schematics": "^9.0.0",
+    "typescript": "^4.3.5"
+  }
+}
